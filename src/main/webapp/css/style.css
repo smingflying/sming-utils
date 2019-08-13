@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/* 全局CSS样式 */
+* {
+	margin: 0;
+	padding: 0;
+	font-size:12px;
+}
+
+/* 列表容器样式 */ 
+.container {
+	width: 1000px;
+	margin: 5px auto;
+}
+
+/* 数据表格样式 */
+table.data-grid {
+	width: 100%
+}
+
+table.data-grid {
+	text-align: left;
+	padding-top:10px;
+}
+table.data-grid tr{
+	line-height: 30px;
+}
+
+table.data-grid tr th,td{
+	border:1px solid #eee;
+	padding:5px;
+}
+
+table.data-grid tr th {
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.sorting {
+	background-image: url("/images/sort_both.png");
+}
+.sorting_desc {
+	background-image: url("/images/sort_desc.png");
+}
+.sorting_asc {
+	background-image: url("/images/sort_asc.png");
+}
+
+/* 分页条样式 */
+.pageBar {
+	padding-top:10px;
+}
+.pageBtn {
+	padding:2px 5px 2px 5px;
+}
+.pageSizeSelect{
+	width:70px;
+	border-radius: 3px;
+}
+
+/* 按钮样式 */
+.btn{
+	display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 12px;
+    height: 31px;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+	color:#FFF;
+}
+.btn-primary{
+	background-color: #3F9EFF;
+	border-color:#3F9EFF;
+}
+.btn-primary:hover,.btn-primary:active {
+	background-color: #0a6999;
+    border-color: #0a6999;
+}
+.btn-success{
+	background-color:#67C23A;
+	border-color:#67C23A;
+}
+.btn-success:hover,.btn-success:active {
+	background-color: #429842;
+    border-color: #429842;
+}
+.btn-danger{
+	background-color:#F66C6C;
+	border-color:#F66C6C;
+}
+.btn-danger:hover,.btn-danger:active {
+	background-color: #c62b26;
+    border-color: #c62b26;
+}
+
+/* 搜索条件框样式 */
+table.search-condition td{
+	border:0;
+}
+.search-condition-box {
+	margin-top:10px;
+	padding:10px;
+	border:1px solid #e3e3e3
+}
